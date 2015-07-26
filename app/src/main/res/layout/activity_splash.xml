@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#ffca28">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1.5"/>
+
+    <TextView
+        android:textSize="78dp"
+        android:textColor="#ff6f00"
+        android:gravity="center"
+        android:text="Paper\nCrane"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="4"/>
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#fb8c00"
+        android:gravity="center"
+        android:text="숨겨왔던 나의 마음, 이젠 전해줄게"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="4"
+        android:src="@drawable/hack"/>
+</LinearLayout>
